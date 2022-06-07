@@ -1,3 +1,51 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+/* Стили для обнуления верхних отступов у элементов */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+/* Класс для обнуления базовых свойств у списков (ul) */
+ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+/* Класс для обнуления базовых свойств у ссылок */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Свойства для корректного отображения картинок */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Свойства для обнуления курсива у address */
+address {
+    font-style: normal;
+    /* or */
+    font-style: inherit;
+}
+  
 :root{
     --main-txt-color: #212121;
     --dark-blue-txt-color: #0f4877;
@@ -10,12 +58,29 @@
     --light-grey-color: #F5F4FA;
 }
 
+html{
+    box-sizing: border-box;
+}
+
 body{
     font-family:'Roboto', 'Verdana';
     color: var(--main-txt-color);
 }
 
 /* HEADER */
+
+.container-header {
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+}
 
 .navigation-logo{
     font-family: 'Raleway', 'Verdana';
@@ -37,6 +102,9 @@ body{
     line-height: 1.14;
     letter-spacing: 0.02em;
     list-style: none;
+    display: flex;
+    gap: 50px;
+    margin-left: 93px;
 }
 
 .navigation-list a{
@@ -53,6 +121,9 @@ body{
     color: var(--dark-blue-txt-color);
 }
 
+.navigation-mail{
+    margin-left: 331px;
+}
 .navigation-mail, .navigation-tel{
     text-decoration: none;
     font-weight: 500;
