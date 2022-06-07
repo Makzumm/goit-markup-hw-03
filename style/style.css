@@ -75,6 +75,7 @@ body{
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
+    padding: 25px 0;
 }
 
 .navigation{
@@ -153,7 +154,15 @@ body{
 
 /* MAIN */
 
+
 /* HERO SECTION */
+
+.container-hero{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 200px 0;
+}
+
 .hero-section{
     background-color: #2F303A;
     font-family: "Roboto";
@@ -169,14 +178,21 @@ body{
 }
 
 .hero-button{
+    display: block;
+    margin: auto;
     font-family: inherit;
     background: var(--light-blue-txt-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
     cursor: pointer;
     color: var(--white-color);
     font-weight: 700;
     font-size: 16px;
     line-height: 1.8;
     border: none;
+    margin-top: 30px;
+    padding: 10px 32px 10px 32px;
+    letter-spacing: 0.06em;
 }
 .hero-button:hover,
 .hero-button:focus{
@@ -191,16 +207,29 @@ body{
 
 /* FEATURES SECTION */
 
+.features-container{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 94px 0;
+}
+
 .features-title{
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
     text-align: center;
     letter-spacing: 0.03em;
+    display: none;
 }
 
 .features-list{
+    display: flex;
+    flex-direction: row;
     list-style: none;
+}
+
+.features-list li{
+    padding: 0 30px;
 }
 
 .features-list h3{
@@ -209,6 +238,7 @@ body{
     line-height: 1,14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    padding-bottom: 10px;
 }
 
 .features-list p{
