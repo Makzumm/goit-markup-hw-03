@@ -210,7 +210,7 @@ body{
 .features-container{
     width: 1200px;
     margin: 0 auto;
-    padding: 94px 0;
+    margin-top: 94px;
 }
 
 .features-title{
@@ -224,12 +224,11 @@ body{
 
 .features-list{
     display: flex;
-    flex-direction: row;
     list-style: none;
 }
 
-.features-list li{
-    padding: 0 30px;
+.features-list ul{
+    display: flex;
 }
 
 .features-list h3{
@@ -252,20 +251,38 @@ body{
 
 /* ACTIVITY SECTION */
 
+.activity-container{
+    width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 94px;
+    margin-top: 94px;
+}
+
 .activity-title{
     font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
+    padding-bottom: 50px;
+    
 }
 
 .activity-list{
     list-style: none;
+    display: flex;
+    justify-content: space-between;
 }
 
 
 /* TEAM SECTION */
+
+.team-container{
+    width: 1200px;
+    margin: 0 auto;
+    margin-top: 94px;
+    padding-bottom: 94px;
+}
 
 .team-section{
     background-color: #F5F4FA;
@@ -278,10 +295,20 @@ body{
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--main-txt-color);
+    padding-bottom: 50px;
+    padding-top: 102px;
 }
 
 .team-list{
     list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.team-list li{
+    background-color: var(--white-color);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .team-list h3{
@@ -290,6 +317,8 @@ body{
     line-height: 1,18;
     letter-spacing: 0.03em;
     color: var(--main-txt-color);
+    text-align: center;
+    padding-top: 30px;
 }
 
 .team-list p{
@@ -298,6 +327,8 @@ body{
     line-height: 1.18;
     letter-spacing: 0.03em;
     color: var(--grey-color);
+    text-align: center;
+    padding: 10px 0 30px 0; 
 }
 
 
@@ -305,6 +336,11 @@ body{
 
 footer{
     background-color: var(--dark-grey-color);
+}
+
+.footer-container{
+    width: 1200px;
+    margin: 0 auto;
 }
 
 .footer-logo{
@@ -315,6 +351,9 @@ footer{
     letter-spacing: 0.03em;
     color: var(--white-color);
     text-decoration: none;
+    display: inline-block;
+    padding-top: 60px;
+    padding-bottom: 20px;
 }
 
 .footer-logo span {
@@ -327,6 +366,7 @@ footer{
     font-size: 14px;
     line-height: 24px;
     letter-spacing: 0.03em;
+    padding-bottom: 9px;
 }
 
 .footer-adress a{
@@ -344,14 +384,12 @@ footer{
 }
 
 .footer-list{
-    list-style: none;
-}
-
-.footer-list{
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
+    list-style: none;
+    padding-bottom: 60px;
 } 
 
 .footer-list a{
@@ -371,7 +409,7 @@ footer{
 
 
 
-/* СЕКТОР ПОРТФОЛІО */
+/*                  СЕКТОР ПОРТФОЛІО                     */
 
 /* FILTERS SECTION */
 
