@@ -79,6 +79,7 @@ header{
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
+    padding: 0 15px;
 }
 
 .navigation{
@@ -163,6 +164,7 @@ header{
 .container-hero{
     width: var(--container-width);
     margin: 0 auto;
+    padding: 0 15px;
 }
 
 .hero-section{
@@ -231,6 +233,7 @@ header{
 .features-container {
     width: var(--container-width);
     margin: 0 auto;
+    padding: 0 15px;
 }
 
 .features-list {
@@ -266,7 +269,7 @@ header{
 .activity-container{
     width: var(--container-width);
     margin: 0 auto;
-    padding: 0 15px 0 15px;
+    padding: 0 15px;
 }
 
 .activity-section{
@@ -294,6 +297,7 @@ header{
 .team-container {
     width: var(--container-width);
     margin: 0 auto;
+    padding: 0 15px;
 }
 
 .team-section {
@@ -358,6 +362,7 @@ footer{
 .footer-container{
     width: var(--container-width);
     margin: 0 auto;
+    padding: 0 15px;
 }
 
 .footer-logo{
@@ -434,6 +439,7 @@ footer{
 .filters-container{
     width: var(--container-width);
     margin: 0 auto;
+    padding: 0 15px;
     margin-bottom: 50px;
 }
 
