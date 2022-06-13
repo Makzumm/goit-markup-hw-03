@@ -463,6 +463,10 @@ footer{
     margin-left: 8px;
 }
 
+.filters-list li:first-child{
+    margin-left: 0;
+}
+
 .filters-list button{
     font-family: inherit;
     border: none;
